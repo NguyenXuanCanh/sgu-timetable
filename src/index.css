@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+    height: 100%;
+    background-color: #0001 !important;
 }
+.my-bt{
+    border-top: 2px solid white;
+}
+.my-br{
+    border-right:1px solid white;
+}
+table{
+    Overflow-x:scroll;
+    Overflow-y:scroll;
+}
+th, td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+th:hover,
+  td:hover {
+    text-overflow: clip;
+}
+.wrapper{
+    min-width: 1360px;
+}
+/* Tooltip container */
+  .tooltip {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
