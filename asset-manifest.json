@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sgu-timetable/static/css/main.b179377a.chunk.css",
+    "main.js": "/sgu-timetable/static/js/main.11938d4e.chunk.js",
+    "main.js.map": "/sgu-timetable/static/js/main.11938d4e.chunk.js.map",
+    "runtime-main.js": "/sgu-timetable/static/js/runtime-main.d8c34d88.js",
+    "runtime-main.js.map": "/sgu-timetable/static/js/runtime-main.d8c34d88.js.map",
+    "static/js/2.a5ff1be9.chunk.js": "/sgu-timetable/static/js/2.a5ff1be9.chunk.js",
+    "static/js/2.a5ff1be9.chunk.js.map": "/sgu-timetable/static/js/2.a5ff1be9.chunk.js.map",
+    "static/js/3.54d1610c.chunk.js": "/sgu-timetable/static/js/3.54d1610c.chunk.js",
+    "static/js/3.54d1610c.chunk.js.map": "/sgu-timetable/static/js/3.54d1610c.chunk.js.map",
+    "index.html": "/sgu-timetable/index.html",
+    "static/css/main.b179377a.chunk.css.map": "/sgu-timetable/static/css/main.b179377a.chunk.css.map",
+    "static/js/2.a5ff1be9.chunk.js.LICENSE.txt": "/sgu-timetable/static/js/2.a5ff1be9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8c34d88.js",
+    "static/js/2.a5ff1be9.chunk.js",
+    "static/css/main.b179377a.chunk.css",
+    "static/js/main.11938d4e.chunk.js"
+  ]
+}
