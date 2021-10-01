@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Scrapping from '../Scrapping/Scrapping';
 import swal from 'sweetalert';
 export default function Body() {
-
+    useEffect(() => {
+        document.title = "Thời khóa biểu SGU"
+    }, []);
     const [id, setId] = useState();
     const [submit, onSubmit] = useState();
 
